@@ -19,6 +19,10 @@ class Student {
     }
 }
 
+///  Main class to manage students
+/// - Prompts user for number of students
+/// - Creates an array of Student objects
+/// - Inputs and displays details for each student
 public class StudentManagement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -40,4 +44,5 @@ public class StudentManagement {
 
         sc.close();
     }
+
 }
